@@ -1,0 +1,20 @@
+.dropdown {
+  vertical-align: top;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropdown ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dropdown.active ul {
+  display: block;
+}
+.dropdown li {
+  padding: 5px;
+  background-color: #ccc;
+  border-top: 1px solid #ddd;
+}
