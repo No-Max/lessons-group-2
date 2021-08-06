@@ -13,12 +13,12 @@ const items = [
 ];
 
 class Search {
-  value = "";
+  _value = "";
   constructor(selector, onInput) {
     this.$element = document.querySelector(selector);
     this.$element.addEventListener("input", ({ target }) => {
-      this.value = target.value;
-      onInput(this.value.toLowerCase());
+      this._value = target.value;
+      onInput(this._value.toLowerCase());
     });
   }
 }
