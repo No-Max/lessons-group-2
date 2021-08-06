@@ -22,7 +22,6 @@ input {
   padding: 10px 20px;
   font-size: 18px;
   border-radius: 0;
-  vertical-align: top;
 }
 
 ul {
@@ -32,17 +31,4 @@ ul {
 ul li {
   padding: 10px 20px;
   border-bottom: 1px solid #ccc;
-}
-
-button {
-  vertical-align: top;
-  height: 40px;
-  border: 1px solid #ccc;
-  padding: 10px 20px;
-  border-radius: 0;
-  cursor: pointer;
-}
-
-button:disabled {
-  cursor: not-allowed;
 }
